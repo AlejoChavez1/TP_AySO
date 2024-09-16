@@ -1,0 +1,418 @@
+ls
+ls -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo "ola"
+echo $HOME
+ls
+cat README 
+ls
+cd repogit/
+ls
+pwd
+git clone https://github.com/AlejoChavez1/repo_chavez.git
+ls
+repo_chavez/
+ls
+cd repo_chavez/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status 
+git add .
+git status 
+git commit -m "Alejo Chavez commiteando primera vez"
+git config --global user.email "alejodechavez@gmail.com"
+git config --global user.name "AlejoChvaez1"
+git commit -m "Alejo Chavez commiteando primera vez"
+git push
+git config --global user.gmail "alejodechavez@gmail.com"
+git config --global user.user "AlejoChavez1"
+git push
+exit
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls
+ls -la
+cd .ssh
+ls
+ls -l
+cd ..
+ls 
+cd .ssh
+cat id_ed25519.pub
+cd ..
+ls
+pwd
+cd repogit/
+ls
+pwd
+ls -la
+git clone git@github.com:AlejoChavez1/repo_chavez.git
+ls
+cd repo_chavez/
+pwd
+ls -la
+echo "hola" > hola.txt
+ls -la
+cat hola.txt 
+git status
+cd ..
+git status
+cd repo_chavez/
+git status
+clear
+git status
+git add hola.txt 
+git status
+git commit -m "agrego archivo hola.txt"
+git push
+vagrant ssh
+clear
+cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+cat /etc/passwd | grep vagrant
+clear
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -v nologin > archivo1.txt
+ls
+cat archivo1.txt 
+cat /etc/passwd | grep -v nologin | head -n3
+clear
+cat /etc/shadow
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep model
+lscpu | grep Model
+lscpu | grep -i model
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 > info_proc.txt
+ls
+git status
+cat info_proc.txt 
+sort archivo1.txt 
+history
+clear
+history
+cat << FIN >bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+ls
+bc
+echo "chau >> hola.txt
+cat hola.txt 
+echo "chau" >> hola.txt
+cat hola.txt 
+ls
+clear
+quit
+vagrant ssg
+echo "chau >> hola.txt
+cat hola.txt 
+echo "chau" >> hola.txt
+cat hola.txt 
+ls
+clear
+quit
+vagrant ssh
+cat hola.txt 
+echo "chau" > hola.txt 
+cat hola.txt 
+echo "chau" > chau.txt
+cat hola.txt  chau.txt  > saludo.txt
+cat saludo.txt 
+exit
+ls
+cd repogit/
+ls
+git status
+ls
+ls -l
+pdw
+pwd
+ls
+git clone git@github.com:AlejoChavez1/TP_AySO.git
+ls
+ls -l
+cd TP_AySO/
+ls
+pdw
+pwd
+cat /etc/os-release
+man grep
+grep HOME_URL
+cd repogit/
+cd TP_AySO/
+echo HOLA
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)"
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+echo "Usuario=Alejo" > datos_usuario.txt
+cat datos_usuario.txt 
+git status
+git add .
+git status
+git commit -m "ADD: Agregando el primer ejercicio sobre datos_usuario.txt del tp de ArSO"
+git status
+cat /proc/cpuinfo
+cat head/proc/cpuinfo
+cat /proc/cpuinfo | grep "model name" >> datos_usuarios.txt
+cat datos_usuario
+pwd
+ls
+cat datos_usuario
+
+cat head/proc/cpuinfo
+cat head/proc/cpuinfopwd
+ls
+rm datos_usuario.txt
+ls
+cat datos_usuarios.txt 
+ls
+rm datos_usuario.txt
+ls
+rm datos_usuario.txt
+ls
+rm datos_usuarios.txt
+echo "Usuario=Alejo" > datos_usuarios.txt
+ls
+cat /proc/cpuinfo | grep "model name" >> datos_usuario.txt
+ls
+cat datos_usuarios.txt 
+cat datos_usuarios.txt mv datos_usuarios.txt datos_usuario.txt
+ls
+mv datos_usuarios.txt datos_usuario.txt
+ls
+cat datos_usuario.txt 
+rm datos_usuario.txt
+echo "Usuario=Alejo" > datos_usuario.txt
+head/proc/cpuinfo | grep "model name"
+head /proc/cpuinfo | grep "model name"
+echo "Model name=$(head /proc/cpuinfo | grep "model name")" >> datos_usuario.txt
+cat datos_usuario.txt 
+rm datos_usuario.txt
+echo "Usuario=Alejo" > datos_usuarios.txt
+echo (head /proc/cpuinfo | grep "model name") >> datos_usuario.txt
+echo /proc/cpuinfo | grep "model name" >> datos_usuarios.txt
+cat datos_usuarios.txt 
+echo head/proc/cpuinfo | grep "model name" >> datos_usuarios.txt
+cat datos_usuarios.txt 
+ls
+cat datos_usuarios.txt 
+head/proc/cpuinfo
+cat head/proc/cpuinfo
+owd
+pwd
+ls
+proc/cpuinfo
+cat proc/cpuinfo
+echo "Modelo de CPU: $(grep 'model name' /proc/cpuinfo | head -1 | cut -d: -f2)" >> datos_usuario.txt
+cat datos_usuario
+cat datos_usuarios.txt
+ls
+echo "Modelo de CPU: $(grep 'model name' /proc/cpuinfo | head -1 | cut -d: -f2)" >> datos_usuarios.txt
+cat datos_usuarios.txt
+ls
+rm datos_usuario.txt
+ls
+ls datos_usuarios.txt 
+cat datos_usuarios.txt 
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt"
+ls
+ls
+cd repogit/
+cd TP_AySO/
+ls
+cat datos_usuarios.txt 
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt"
+ls
+cd repogit/
+cd TP_AySO/
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt"
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+ls
+rm lista_ordenada.txt 
+ls
+cd repogit/
+cd TP_AySO/
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+clear
+ls
+git status
+git add .
+cd repogit/
+cd TP
+cd TP_AySO/
+ls
+clear
+ls
+git add datos_usuarios.txt 
+git status
+git reset
+git status
+git add datos_usuario
+git add datos_usuario.txt
+git status
+git
+git status
+git add datos_usuario.txt
+git status
+git add ls
+ls
+git add datos_usuarios.txt
+git status
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+cat lista_ordenada.txt 
+git add lista_ordenada.txt
+git commit -m “ADD: Listado de usuarios ordenada”
+git status
+git commit -m “ADD: Listado de usuarios ordenada"
+git status
+cd repogit/
+cd TP_AySO/
+git status
+git commit -m "ADD: listado de usuarios ordenado"
+git status
+ls
+rm lista_ordenada.txt 
+rm datos_usuarios.txt 
+echo "Usuario=Alejo" > datos_usuario.txt
+git status
+ls
+git add datos_usuario.txt
+git status
+git commit datos_usuario -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git commit datos_usuario -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git commit datos_usuario.txt -m "ADD:agregando 1er ejercicio sobre datos_usuario.txt"
+echo "Modelo de CPU: $(grep 'model name' /proc/cpuinfo | head -1 | cut -d: -f2)" >> datos_usuario.txt
+cat datos_usuario.txt 
+git status
+git add datos_usuario.txt
+git status
+git commit -m "feat: añadiendo info de cpu"
+git status
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+ls
+git status
+ls
+clear
+ls
+git status
+cat lista_ordenada.txt 
+git add lista_ordenada.txt 
+git status
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+git status
+clear
+ls
+grep -v nologin /etc/passwd | sort -t":" -k7
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+git status
+clear
+ls
+rm lista_ordenada.txt 
+ls
+grep -v nologin /etc/passwd | sort -t":" -k7
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+git status
+git add lista_ordenada.txt 
+git status
+ls
+cd repogit/
+cd TP_AySO/
+ls
+git status
+cat lista_ordenada.txt 
+ls -l lista_ordenada.txt
+cat .gitignore
+ls -l
+git add lista_ordenada.txt
+git status
+ls -l lista_ordenada.txt
+git status
+rm hola.txt
+rm lista_ordenada.txt 
+
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7) > lista_ordenad.txt
+ls
+git status
+cd repogit/
+cd TP_AySO/
+git status
+ls
+cat datos_usuario.txt 
+echo "$(grep -v nologin /etc/passwd | sort -t":" -k7)" > lista_ordenada.txt
+git status
+ls
+git resety
+git reset
+git status
+git add datos_usuario.txt
+git status
+ls
+rm datos_usuario.txt 
+rm lista_ordenada.txt 
+git reset
+cd repogit/
+cd TP_AySO/
+ls
+echo "Usuario=juan" > datos_usuario.txt
+git status
+git add datos_usuario
+git status
+git add datos_usuario.txt
+git status
+git commit datos_usuario.txt -m "ADD:agregando 1er ejercicio sobre datos_usuario.txt"
+echo "Modelo de CPU: $(grep 'model name' /proc/cpuinfo | head -1 | cut -d: -f2)" >> datos_usuario.txt
+git status
+git add datos_usuario.txt
+git commit -m "feat: añadiendo info de cpu"
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | sort -t":" -k7
+grep -v "nologin" /etc/passwd | sort -t":" -k7 | head -n 10
+grep -v "nologin" /etc/passwd | sort -t":" -k7 | head -n 10 > lista_ordenada
+git status
+mv lista_ordenada lista_ordenada.txt
+git status
+mv lista_ordenada.txt lista_ordenada
+git status
+git add lista_ordenada
+git commit -m "ADD: listado de usuarios ordenada"
+git status
+cat <<FIN>> README.md
+Alumno: Alejo Chavez
+Division: 115-2
+Turno: Mañana
+FIN
+
+git status
+git add README.md 
+git commit -m "ADD: añadiendo nombre, turno y division"
+history -a
+history -a $HOME/.bash_history
+git status
+ls -la $HOME 
+history -a $HOME/.bash_history
